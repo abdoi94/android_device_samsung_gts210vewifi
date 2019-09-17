@@ -14,4 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip.mk
+    $(LOCAL_DIR)/aosip_gts210vewifi.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_gts210vewifi-userdebug \
+    aosip_gts210vewifi-eng
