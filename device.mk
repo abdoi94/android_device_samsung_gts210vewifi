@@ -32,6 +32,13 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Grip Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/grippower.info:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/grippower.info
+    	
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Inherit from msm8976-common
 $(call inherit-product, device/samsung/msm8976-common/msm8976.mk)
