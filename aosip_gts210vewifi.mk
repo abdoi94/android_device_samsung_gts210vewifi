@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit from gts210vewifi device
 $(call inherit-product, device/samsung/gts210vewifi/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+# Inherit some common AOSiP stuff.
+$(call inherit-product, vendor/aosip/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts210vewifi
-PRODUCT_NAME := lineage_gts210vewifi
+PRODUCT_NAME := aosip_gts210vewifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T813
 PRODUCT_MANUFACTURER := samsung

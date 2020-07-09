@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts210vewifi.mk
+    $(LOCAL_DIR)/aosip_gts210vewifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gts210vewifi-user \
-    lineage_gts210vewifi-userdebug \
-    lineage_gts210vewifi-eng
+    aosip_gts210vewifi-user \
+    aosip_gts210vewifi-userdebug \
+    aosip_gts210vewifi-eng
